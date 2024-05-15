@@ -5,6 +5,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    margin: 2rem auto;
+    width: 75%;
+}
+
+.form-container {
+    width: 75%;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.result-container {
+    text-align: center;
+}
+
+.movie-data-list {
+    list-style: none;
+    line-height: 2rem;
+}
+
+span {
+    font-weight: bold;
+}
+
 
 html {
     font-family: "Roboto", sans-serif;
@@ -109,5 +138,10 @@ footer ul li a {
     text-transform: uppercase;
     text-decoration: none;
     color: #777;
+}
+img{
+    margin-top: 2rem;
+    height: 500px;
+    border-radius: 2rem;
 }
 
